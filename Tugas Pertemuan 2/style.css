@@ -172,7 +172,7 @@ body {
     opacity: 0.95;
     filter: alpha(opacity=95); 
     object-fit: cover; /* Memastikan gambar tidak gepeng/terdistorsi */
-    object-position: center; /* Posisi gambar di tengah */
+    object-position: center top; /* Posisi gambar di tengah atas, agar rambut tidak terpotong */
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
