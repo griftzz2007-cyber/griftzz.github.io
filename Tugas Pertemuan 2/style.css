@@ -32,7 +32,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     margin: 0;
-    line-height: 44px; /* Sejajarkan dengan tinggi navbar */
+    line-height: 44px; 
 }
 
 #navbar {
@@ -171,8 +171,8 @@ body {
     border-radius: 50%; 
     opacity: 0.95;
     filter: alpha(opacity=95); 
-    object-fit: cover; /* Memastikan gambar tidak gepeng/terdistorsi */
-    object-position: center top; /* Posisi gambar di tengah atas, agar rambut tidak terpotong */
+    object-fit: cover; 
+    object-position: center top;
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
