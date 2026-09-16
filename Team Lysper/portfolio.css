@@ -192,7 +192,6 @@ section {
         0 0 10px var(--primary-blue),
         0 0 20px var(--primary-blue),
         0 0 40px var(--primary-blue);
-    animation: glitch 3s infinite;
     position: relative;
 }
 
@@ -711,16 +710,18 @@ section {
     font-size: 80px;
     margin-bottom: 20px;
     filter: drop-shadow(0 5px 15px rgba(255, 215, 0, 0.5));
-    animation: float 3s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
 }
 
-@keyframes float {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-15px);
-    }
+.achievement-icon img {
+    width: 100%;
+    height: 200px;
+    max-width: 250px;
+    object-fit: cover;
+    border-radius: 15px;
 }
 
 .achievement-card h3 {
